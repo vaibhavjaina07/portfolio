@@ -206,7 +206,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Typing effect
     const typedTextSpan = document.querySelector('.typed-text');
     const cursorSpan = document.querySelector('.cursor');
-    const textArray = ['Software Developer', 'Java Developer', 'Web Developer', 'ML Enthusiast'];
+    const textArray = ['Software Developer', 'Java Developer', 'Web Developer', 'Frontend Developer'];
     const typingDelay = 100;
     const erasingDelay = 50;
     const newTextDelay = 2000;
