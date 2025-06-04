@@ -9,25 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 <body>
-    <div id="preloader">
-        <div class="loader">
-            <span>Loading</span>
-            <div class="dots">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </div>
-
-    <div id="particles-js"></div>
-    
-    <div class="cursor-custom"></div>
-    <div class="cursor-custom-follower"></div>
-    
     <nav class="navbar">
         <div class="logo">
             <span>VJ</span>
@@ -42,7 +25,6 @@
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#resume">Resume</a></li>
         </ul>
     </nav>
 
@@ -56,14 +38,8 @@
                 <span class="cursor">&nbsp;</span>
             </div>
             <div class="hero-buttons">
-                <a href="#projects" class="btn primary-btn">
-                    <span>View Projects</span>
-                    <i class="fas fa-arrow-right"></i>
-                </a>
-                <a href="#skills" class="btn secondary-btn">
-                    <span>My Skills</span>
-                    <i class="fas fa-code"></i>
-                </a>
+                <a href="#projects" class="btn primary-btn">View Projects</a>
+                <a href="#skills" class="btn secondary-btn">My Skills</a>
             </div>
         </div>
         <div class="scroll-indicator">
@@ -89,24 +65,20 @@
                     <img src="images/profile-photo.jpg" alt="Vaibhav Jaina" class="profile-photo">
                 </div>
                 <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/vaibhav-jaina" target="_blank" class="social-icon" aria-label="LinkedIn">
+                    <a href="https://www.linkedin.com/in/vaibhav-jaina" target="_blank" class="social-icon">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
-                    <a href="mailto:saivaibhavjaina999@gmail.com" class="social-icon" aria-label="Email">
+                    <a href="mailto:saivaibhavjaina999@gmail.com" class="social-icon">
                         <i class="fas fa-envelope"></i>
                     </a>
-                    <a href="tel:9553199868" class="social-icon" aria-label="Phone">
+                    <a href="tel:9553199868" class="social-icon">
                         <i class="fas fa-phone"></i>
-                    </a>
-                    <a href="https://github.com/vaibhavjaina" target="_blank" class="social-icon" aria-label="GitHub">
-                        <i class="fab fa-github"></i>
                     </a>
                 </div>
             </div>
             <div class="about-text">
                 <p>I am an aspiring software developer with a strong foundation in programming languages and software development principles. I am passionate about applying my technical skills to contribute to innovative projects.</p>
                 <p>With a background in Computer Science & Engineering, I am constantly learning and improving my skills to stay updated with the latest technologies and industry trends.</p>
-                <p>I am particularly interested in web development and interactive applications, and I enjoy solving complex problems through creative coding solutions.</p>
                 
                 <div class="education">
                     <h3>Education</h3>
@@ -144,210 +116,6 @@
         </div>
     </section>
 
-    <section id="skills" class="skills-section">
-        <div class="section-header">
-            <h2>Technical Skills</h2>
-            <div class="underline"></div>
-        </div>
-        <div class="skills-container">
-            <div class="skill-category">
-                <h3>Programming Languages</h3>
-                <div class="skill-items">
-                    <div class="skill-item" data-skill="Java">
-                        <div class="skill-icon">
-                            <i class="fab fa-java"></i>
-                        </div>
-                        <div class="skill-info">
-                            <h4>Java</h4>
-                            <div class="skill-bar">
-                                <div class="skill-level" data-level="75"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill-item" data-skill="JavaScript">
-                        <div class="skill-icon">
-                            <i class="fab fa-js"></i>
-                        </div>
-                        <div class="skill-info">
-                            <h4>JavaScript</h4>
-                            <div class="skill-bar">
-                                <div class="skill-level" data-level="65"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="skill-category">
-                <h3>Web Development</h3>
-                <div class="skill-items">
-                    <div class="skill-item" data-skill="HTML">
-                        <div class="skill-icon">
-                            <i class="fab fa-html5"></i>
-                        </div>
-                        <div class="skill-info">
-                            <h4>HTML</h4>
-                            <div class="skill-bar">
-                                <div class="skill-level" data-level="80"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill-item" data-skill="CSS">
-                        <div class="skill-icon">
-                            <i class="fab fa-css3-alt"></i>
-                        </div>
-                        <div class="skill-info">
-                            <h4>CSS</h4>
-                            <div class="skill-bar">
-                                <div class="skill-level" data-level="75"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="skill-category">
-                <h3>Database</h3>
-                <div class="skill-items">
-                    <div class="skill-item" data-skill="SQL">
-                        <div class="skill-icon">
-                            <i class="fas fa-database"></i>
-                        </div>
-                        <div class="skill-info">
-                            <h4>SQL</h4>
-                            <div class="skill-bar">
-                                <div class="skill-level" data-level="70"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="skill-bubbles">
-                <div class="bubble" data-skill="Java">Java</div>
-                <div class="bubble" data-skill="HTML">HTML</div>
-                <div class="bubble" data-skill="CSS">CSS</div>
-                <div class="bubble" data-skill="JavaScript">JavaScript</div>
-                <div class="bubble" data-skill="SQL">SQL</div>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects" class="projects-section">
-        <div class="section-header">
-            <h2>My Projects</h2>
-            <div class="underline"></div>
-        </div>
-        <div class="projects-container">
-            <div class="project-card">
-                <div class="project-card-inner">
-                    <div class="project-card-front">
-                        <div class="project-image">
-                            <div class="project-image-placeholder">
-                                <i class="fas fa-sort"></i>
-                            </div>
-                        </div>
-                        <h3>Sort Visualization</h3>
-                        <p class="project-brief">Interactive sorting algorithm visualizer</p>
-                        <div class="flip-icon">
-                            <i class="fas fa-info-circle"></i>
-                            <span>Click for details</span>
-                        </div>
-                    </div>
-                    <div class="project-card-back">
-                        <h3>Sort Visualization</h3>
-                        <div class="project-details">
-                            <p>An interactive web application that visualizes different sorting algorithms to help beginners understand how they work.</p>
-                            <ul>
-                                <li>Visual representation of sorting algorithms using animated bars</li>
-                                <li>Multiple sorting algorithms including Bubble Sort, Quick Sort, Merge Sort</li>
-                                <li>Speed control to adjust visualization pace</li>
-                                <li>Responsive design for all device sizes</li>
-                            </ul>
-                            <div class="tech-stack">
-                                <span class="tech-tag">HTML5</span>
-                                <span class="tech-tag">CSS3</span>
-                                <span class="tech-tag">JavaScript</span>
-                                <span class="tech-tag">Algorithms</span>
-                            </div>
-                        </div>
-                        <div class="flip-back-icon">
-                            <i class="fas fa-undo"></i>
-                            <span>Back</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="project-card">
-                <div class="project-card-inner">
-                    <div class="project-card-front">
-                        <div class="project-image">
-                            <div class="project-image-placeholder">
-                                <i class="fas fa-globe"></i>
-                            </div>
-                        </div>
-                        <h3>Portfolio Website</h3>
-                        <p class="project-brief">Interactive personal portfolio</p>
-                        <div class="flip-icon">
-                            <i class="fas fa-info-circle"></i>
-                            <span>Click for details</span>
-                        </div>
-                    </div>
-                    <div class="project-card-back">
-                        <h3>Portfolio Website</h3>
-                        <div class="project-details">
-                            <p>A modern, interactive portfolio website showcasing my skills and projects.</p>
-                            <ul>
-                                <li>Responsive design for all device sizes</li>
-                                <li>Interactive UI elements and smooth animations</li>
-                                <li>Optimized performance and accessibility</li>
-                                <li>Deployed on GitHub Pages</li>
-                            </ul>
-                            <div class="tech-stack">
-                                <span class="tech-tag">HTML5</span>
-                                <span class="tech-tag">CSS3</span>
-                                <span class="tech-tag">JavaScript</span>
-                                <span class="tech-tag">Responsive Design</span>
-                            </div>
-                        </div>
-                        <div class="flip-back-icon">
-                            <i class="fas fa-undo"></i>
-                            <span>Back</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="resume" class="resume-section">
-        <div class="section-header">
-            <h2>Resume</h2>
-            <div class="underline"></div>
-        </div>
-        <div class="resume-container">
-            <div class="resume-content">
-                <p>View or download my complete resume to learn more about my experience, skills, and qualifications.</p>
-                <div class="resume-buttons">
-                    <a href="sort-visualizer.html" target="_blank" class="btn primary-btn">
-                        <i class="fas fa-eye"></i>
-                        <span>View Demo</span>
-                    </a>
-                    <a href="resume/vaibhav-jaina-resume.pdf" download class="btn secondary-btn">
-                        <i class="fas fa-download"></i>
-                        <span>Download Resume</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="theme-toggle">
-        <i class="fas fa-moon"></i>
-        <i class="fas fa-sun"></i>
-    </div>
-
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-logo">
@@ -364,7 +132,6 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
